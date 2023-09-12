@@ -1,0 +1,214 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<!--
+Template Name: SmartAdmin Responsive WebApp - Template build with Twitter Bootstrap 4
+Version: 4.0.2
+Author: Sunnyat Ahmmed
+Website: http://gootbootstrap.com
+Purchase: https://wrapbootstrap.com/theme/smartadmin-responsive-webapp-WB0573SK0
+License: You must have a valid license purchased only from wrapbootstrap.com (link above) in order to legally use this theme for your project.
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login - SmartAdmin v4.0.2</title>
+    <meta name="description" content="Login">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="page-inner bg-brand-gradient">
+            <div class="page-content-wrapper bg-transparent m-0">
+                <div class="height-10 w-100 shadow-lg px-4 bg-brand-gradient">
+                    <div class="d-flex align-items-center container p-0">
+                        <div class="page-logo width-mobile-auto m-0 align-items-center justify-content-center p-0 bg-transparent bg-img-none shadow-0 height-9">
+                            <a href="javascript:void(0)" class="page-logo-link press-scale-down d-flex align-items-center">
+                                <img src="~/logo.png" alt="SmartAdmin WebApp" aria-roledescription="logo">
+                                <span class="page-logo-text mr-1">Internship Project</span>
+                            </a>
+                        </div>
+                        <span class="text-white opacity-50 ml-auto mr-2 hidden-sm-down">
+                            Already a member?
+                        </span>
+                        <a href="/Home/Index" class="btn-link text-white ml-auto ml-sm-0">
+                            Secure Login
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-1" style="background: url(/pattern-1.svg) no-repeat center bottom fixed; background-size: cover;">
+                    <div class="container py-4 py-lg-5 my-lg-5 px-4 px-sm-0">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <h2 class="fs-xxl fw-500 mt-4 text-white text-center">
+                                    Register now, it's free!
+                                    <small class="h3 fw-300 mt-3 mb-5 text-white opacity-60 hidden-sm-down">
+                                        <br>It is ready to go wherever you go!
+                                    </small>
+                                </h2>
+                            </div>
+                            <div class="col-xl-6 ml-auto mr-auto">
+                                <div class="card p-4 rounded-plus bg-faded">
+                                    <form id="js-login" novalidate>
+                                        <div class="form-group row">
+                                            <label class="col-xl-12 form-label" for="fname">Your first and last name</label>
+                                            <div class="col-6 pr-1">
+                                                <input type="text" id="fname" class="form-control" placeholder="First Name" required>
+                                                <div class="invalid-feedback">No, you missed this one.</div>
+                                            </div>
+                                            <div class="col-6 pl-1">
+                                                <input type="text" id="lname" class="form-control" placeholder="Last Name" required>
+                                                <div class="invalid-feedback">No, you missed this one.</div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="number" id="number" class="form-control" placeholder="Phone Number" required>
+                                            <div class="invalid-feedback">No, you missed this one.</div>
+                                            <div class="help-block">Add you phone number so we can  contact you in emergencies</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="example-select"> Department </label>
+                                            <select class="form-control" id="department">
+                                                <option disabled>HR</option>
+                                                <option>IT</option>
+                                                <option>Finance and Accounting</option>
+                                                <option>Operations and Production</option>
+                                                <option>Marketing</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="form-label" for="emailverify"></label>
+                                            <input type="email" id="emailverify" class="form-control" placeholder="Email / Username" required>
+                                            <div class="invalid-feedback">No, you missed this one.</div>
+                                            <div class="help-block">Your email will also be your username</div>
+                                        </div>
+                                        <div class="form-group demo">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="terms" required>
+                                                <label class="custom-control-label" for="terms">I agree to terms & conditions</label>
+                                                <div class="invalid-feedback">You must agree before proceeding</div>
+                                            </div>
+                                        </div>
+                                        <div class="row no-gutters">
+                                            <div class="col-md-4 ml-auto text-right">
+                                                <button id="js-login-btn" type="submit" class="btn btn-block btn-danger btn-lg mt-3">Send verification</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-absolute pos-bottom pos-left pos-right p-3 text-center text-white"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+
+
+
+
+
+        $(document).ready(function () {
+
+
+            var chars = "0123456789abcdefghijklmnopqrstuvwxyz!#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            var passwordLength = 12;
+            var password = "";
+
+
+            for (var i = 0; i <= passwordLength; i++) {
+                var randomNumber = Math.floor(Math.random() * chars.length);
+                password += chars.substring(randomNumber, randomNumber + 1);
+            }
+
+
+            $("#js-login-btn").click(function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+
+                var username = $("#emailverify").val();
+                var firstName = $("#fname").val();
+                var lastName = $("#lname").val();
+                var pass = password;
+
+                var form = $("#js-login");
+
+                if (form[0].checkValidity() === false) {
+                    form.addClass("was-validated");
+                } else {
+
+
+                    department_Var = document.getElementById("department").value;
+
+                    if (department_Var == "HR") {
+
+                        Level_var = 3;
+                    }
+                    else {
+                        Level_var = 1;
+                    }
+                    $.ajax({
+                        url: "/Home/autoopass",
+                        type: "POST",
+                        data: {
+                            email: username,
+                            name: firstName,
+                            sirName: lastName,
+                            department: $("#department").val(),
+                            num: $("#number").val(),
+                            level: Level_var,
+                            Pass: pass
+
+
+                        },
+                        success: function (response) {
+                           
+
+                            if (response == "User not found") {
+                                Swal.fire({
+                                    title: 'User already taken',
+                                    text: 'Try a different email',
+                                    icon: 'warning',
+                                    confirmButtonText: 'Continue'
+                                });
+
+                            }
+                            else {  
+                                Swal.fire({
+                                    title: 'Password genertaed succesfully',
+                                    text: 'Password sent to email',
+                                    icon: 'success',
+                                    confirmButtonText: 'Continue'
+                                });
+                                setTimeout(function () {
+                                    window.location.href = "/Home/Index";
+                                }, 3000)
+
+                            }
+
+                        },
+                        error: function (x, y, z) {
+                            Swal.fire({
+                                title: "Error!",
+                                text: "Something went wrong with your request",
+                                icon: "error",
+                                confirmButtonText: "Continue"
+                            });
+                            console.log(x, y, z);
+                        }
+                    });
+                }
+            });
+        });
+        
+    </script>
+</body>
+</html>

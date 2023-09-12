@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<!--
+Template Name:  SmartAdmin Responsive WebApp - Template build with Twitter Bootstrap 4
+Version: 4.0.2
+Author: Sunnyat Ahmmed
+Website: http://gootbootstrap.com
+Purchase: https://wrapbootstrap.com/theme/smartadmin-responsive-webapp-WB0573SK0
+License: You must have a valid license purchased only from wrapbootstrap.com (link above) in order to legally use this theme for your project.
+-->
+<html lang="en">
+<head>
+
+    <script>var cardName_var = localStorage.getItem("cardName");
+        if (cardName_var !== null) {
+            cardName = cardName_var;
+            console.log(cardName)
+        }
+        var idCard_var = localStorage.getItem("Id");
+        if (idCard_var !== null) {
+            Id_card = idCard_var;
+            console.log(Id_card)
+        }
+        var firstName_card_var = localStorage.getItem("firstName_card");
+        if (firstName_card_var !== null) {
+            firstName_card = firstName_card_var;
+            console.log(firstName_card)
+        }
+
+        var lastName_card_var = localStorage.getItem("lastName_card");
+        if (lastName_card_var !== null) {
+            lastName_card = lastName_card_var;
+            console.log(lastName_card)
+        }</script>
+
+    <meta charset="utf-8">
+    <title>
+        Login - - SmartAdmin v4.0.2
+    </title>
+    <meta name="description" content="Login">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Call App Mode on ios devices -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Remove Tap Highlight on Windows Phone IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="~/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/favicon-32x32.png">
+    <link rel="mask-icon" href="~/safari-pinned-tab.svg" color="#5bbad5">
+    <!-- Optional: page related CSS-->
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="page-inner bg-brand-gradient">
+            <div class="page-content-wrapper bg-transparent m-0">
+                <div class="height-10 w-100 shadow-lg px-4 bg-brand-gradient">
+                    <div class="d-flex align-items-center container p-0">
+                        <div class="page-logo width-mobile-auto m-0 align-items-center justify-content-center p-0 bg-transparent bg-img-none shadow-0 height-9">
+                            <a href="javascript:void(0)" class="page-logo-link press-scale-down d-flex align-items-center">
+                                <img src="~/logo.png" alt="SmartAdmin WebApp" aria-roledescription="logo">
+                                <span class="page-logo-text mr-1">SmartAdmin WebApp</span>
+                            </a>
+                        </div>
+                        <span class="text-white opacity-50 ml-auto mr-2 hidden-sm-down">
+                            Already a member?
+                        </span>
+                        <a href="page_login_alt.html" class="btn-link text-white ml-auto ml-sm-0">
+                            Secure Login
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-1" style="background: url(/pattern-1.svg) no-repeat center bottom fixed; background-size: cover;">
+                    <div class="container py-4 py-lg-5 my-lg-5 px-4 px-sm-0">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <h2 class="fs-xxl fw-500 mt-4 text-white text-center">
+                                    Forgot your password
+                                    <small class="h3 fw-300 mt-3 mb-5 text-white opacity-60 hidden-sm-down">
+                                        Not a problem, happens to the best of us. Just use the form below to reset it!
+                                    </small>
+                                </h2>
+                            </div>
+                            <div class="col-xl-6 ml-auto mr-auto">
+                                <div class="card p-4 rounded-plus bg-faded">
+                                    <form id="js-login" novalidate="">
+
+                                        <div class="form-group">
+                                            <label class="form-label" for="lostaccount">Current Password</label>
+                                            <input type="password" id="old_pass" class="form-control" placeholder="Recovery email" required>
+                                            <div class="invalid-feedback">No, you missed this one.</div>
+                                            <div class="help-block">Enter your current password</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="lostaccount">New password</label>
+                                            <input type="password" id="new_pass" class="form-control" placeholder="Recovery email" required>
+                                            <div class="invalid-feedback">No, you missed this one.</div>
+                                            <div class="help-block">Enter new password</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="lostaccount">Repeat password</label>
+                                            <input type="password" id="new_pass_rep" class="form-control" placeholder="Recovery email" required>
+                                            <div class="invalid-feedback">No, you missed this one.</div>
+                                            <div class="help-block">Enter the password again</div>
+                                        </div>
+                                        <div class="row no-gutters">
+                                            <div class="col-md-4 ml-auto text-right">
+                                                <button id="js-login-btn" type="submit" class="btn btn-danger">Reset Password</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-block text-center text-white">
+                        2019 © SmartAdmin by&nbsp;<a href='https://www.gotbootstrap.com' class='text-white opacity-40 fw-500' title='gotbootstrap.com' target='_blank'>gotbootstrap.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/vendors.bundle.js"></script>
+    <script src="js/app.bundle.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+        $.ajax({
+            type: "GET",
+            url: '/Home/getPassword?username=' + cardName,
+            dataType: "json", // Expect JSON response
+            success: function (data) {
+                console.log(data);
+                var old_pass = data.password;
+
+            },
+            error: function (xhr, status, error) {
+                console.error(xhr.responseText);
+            }
+        });
+
+    $("#js-login-btn").click(function(event) {
+        var form = $("#js-login");
+
+        event.preventDefault();
+        event.stopPropagation();
+
+        if (form[0].checkValidity() === false) {
+            form.addClass('was-validated');
+        }
+
+        else {
+
+            new_pass_var = $("#new_pass").val();
+            new_pass_rep_var = $("#new_pass_rep").val();
+            old_pass_var = $("#old_pass").val();
+
+            if (new_pass_var !== new_pass_rep_var && old_pass_var !== old_pass) {
+                Swal.fire({
+                    title: "Error",
+                    text: "Passwords dont match",
+                    icon: "error",
+                    confirmButtonText: "Continue"
+                });
+            }
+            else {
+
+
+                $.ajax({
+                    url: "/Home/reset_pass_email_settings",
+                    type: "POST",
+                    data: {
+                        Pass: new_pass_var,
+                        email: cardName
+                    },
+                    success: function (response) {
+                        if (response === "User doesnt exist") {
+                            Swal.fire({
+                                title: 'Hold Up!',
+                                text: 'User not found',
+                                icon: 'warning',
+                                confirmButtonText: 'Continue'
+                            });
+
+
+                        } else {
+                            Swal.fire({
+                                title: 'Success',
+                                text: 'Password',
+                                icon: 'success',
+                                confirmButtonText: 'Continue'
+                            });
+
+
+                            setTimeout(function () {
+                                window.location.href = "/Home/settings_profile";
+                            }, 1500); // Delay the redirection by 4 seconds (4000 milliseconds)
+
+
+
+                        }
+                    },
+                    error: function (x, y, z) {
+                        console.log(data);
+
+                        Swal.fire({
+                            title: 'Error!',
+                            text: 'Something went wrong with your request',
+                            icon: 'error',
+                            confirmButtonText: 'Continue'
+                        });
+                        console.log(x, y, z);
+                    }
+
+                });
+            }
+        }
+
+    });
+
+        });
+
+    </script>
+
+</body>
+</html>

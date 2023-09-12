@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = employee_system
+build_property.RootNamespace = employee_system
+build_property.ProjectDir = /Users/ahmedhassanin/Projects/employee_system/employee_system/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/ahmedhassanin/Projects/employee_system/employee_system
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/after_register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9hZnRlcl9yZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/assigned_requests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9hc3NpZ25lZF9yZXF1ZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/assigned_tasks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9hc3NpZ25lZF90YXNrcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/Authenticate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BdXRoZW50aWNhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/dashboard_hr.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9kYXNoYm9hcmRfaHIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/dashboard_leader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9kYXNoYm9hcmRfbGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/demote_page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9kZW1vdGVfcGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/employee_table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9lbXBsb3llZV90YWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/forgot_password.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9mb3Jnb3RfcGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/main.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9tYWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/page_register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9wYWdlX3JlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/Page_register_autopass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9QYWdlX3JlZ2lzdGVyX2F1dG9wYXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/promotion_page.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9wcm9tb3Rpb25fcGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/request_add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9yZXF1ZXN0X2FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/request_table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9yZXF1ZXN0X3RhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/reset_pass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9yZXNldF9wYXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/reset_pass_settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9yZXNldF9wYXNzX3NldHRpbmdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/settings_profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zZXR0aW5nc19wcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Home/task_assign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS90YXNrX2Fzc2lnbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhassanin/Projects/employee_system/employee_system/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fpn6zoy4je

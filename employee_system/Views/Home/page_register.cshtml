@@ -1,0 +1,238 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<!--
+Template Name:  SmartAdmin Responsive WebApp - Template build with Twitter Bootstrap 4
+Version: 4.0.2
+Author: Sunnyat Ahmmed
+Website: http://gootbootstrap.com
+Purchase: https://wrapbootstrap.com/theme/smartadmin-responsive-webapp-WB0573SK0
+License: You must have a valid license purchased only from wrapbootstrap.com (link above) in order to legally use this theme for your project.
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>
+        Login - - SmartAdmin v4.0.2
+    </title>
+    <meta name="description" content="Login">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="page-inner bg-brand-gradient">
+            <div class="page-content-wrapper bg-transparent m-0">
+                <div class="height-10 w-100 shadow-lg px-4 bg-brand-gradient">
+                    <div class="d-flex align-items-center container p-0">
+                        <div class="page-logo width-mobile-auto m-0 align-items-center justify-content-center p-0 bg-transparent bg-img-none shadow-0 height-9">
+                            <a href="javascript:void(0)" class="page-logo-link press-scale-down d-flex align-items-center">
+                                <img src="~/logo.png"alt="SmartAdmin WebApp" aria-roledescription="logo">
+                                <span class="page-logo-text mr-1">Internship Project</span>
+                            </a>
+                        </div>
+                        <span class="text-white opacity-50 ml-auto mr-2 hidden-sm-down">
+                            Already a member?
+                        </span> 
+                        <a href="/Home/Index" class="btn-link text-white ml-auto ml-sm-0">
+                            Secure Login
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-1" style="background: url(/pattern-1.svg) no-repeat center bottom fixed; background-size: cover;">
+                    <div class="container py-4 py-lg-5 my-lg-5 px-4 px-sm-0">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <h2 class="fs-xxl fw-500 mt-4 text-white text-center">
+                                    Register
+                                    <small class="h3 fw-300 mt-3 mb-5 text-white opacity-60 hidden-sm-down">
+                                        <br>HR will review this information
+                                    </small>
+                                </h2>
+                            </div>
+                            <div class="col-xl-6 ml-auto mr-auto">
+                                <div class="card p-4 rounded-plus bg-faded">
+                              
+                                    <form id="js-login" novalidate="">
+                                        <div class="form-group row">
+                                            <label class="col-xl-12 form-label" for="fname">Your first and last name</label>
+                                            <div class="col-6 pr-1">
+                                                <input type="text" id="fname" class="form-control" placeholder="First Name" required>
+                                                <div class="invalid-feedback">No, you missed this one.</div>
+                                            </div>
+                                            <div class="col-6 pl-1">
+                                                <input type="text" id="lname" class="form-control" placeholder="Last Name" required>
+                                                <div class="invalid-feedback">No, you missed this one.</div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="number" id="number" class="form-control" placeholder="Phone Number" required>
+                                            <div class="invalid-feedback">No, you missed this one.</div>
+                                            <div class="help-block">Add you phone number so we can  contact you in emergencies</div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="example-select"> Department </label>
+                                            <select class="form-control" id="department">
+                                                <option disabled>HR</option>
+                                                <option>IT</option>
+                                                <option>Finance and Accounting</option>
+                                                <option>Operations and Production</option>
+                                                <option>Marketing</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="emailverify"><!--Email will be needed for verification and account recovery--></label>
+                                            <input type="email" id="emailverify" class="form-control" placeholder="Email" required>
+                                            <div class="invalid-feedback">No, you missed this one.</div>
+                                            <div class="help-block">Your email will also be your username</div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="form-label" for="userpassword">Pick a password: <br><!--Don't reuse your bank password, we didn't spend a lot on security for this app.--></label>
+                                            <input type="password" id="userpassword" class="form-control" placeholder="minimm 8 characters" required>
+                                            <div class="invalid-feedback">Sorry, you missed this one.</div>
+                                            <div class="help-block">Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.</div>
+                                        </div>
+                                        <div class="form-group demo">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="terms" required>
+                                                <label class="custom-control-label" for="terms"> I agree to terms & conditions</label>
+                                                <div class="invalid-feedback">You must agree before proceeding</div>
+                                            </div>
+                                            <!--
+
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="newsletter">
+            <label class="custom-control-label" for="newsletter">Sign up for newsletters (dont worry, we won't send so many)</label>
+        </div>
+            -->
+                                        </div>
+                                        <div class="row no-gutters">
+                                            <div class="col-md-4 ml-auto text-right">
+                                                <button id="js-login-btn" type="submit" class="btn btn-block btn-danger btn-lg mt-3">Send verification</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-absolute pos-bottom pos-left pos-right p-3 text-center text-white">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+
+     
+
+    </script>
+
+    <script>
+
+           
+
+        $(document).ready(function () {
+
+
+
+
+            $("#js-login-btn").click(function (event) {
+                /* The functions event.preventDefault() and event.stopPropagation() are used in JavaScript event handling to modify the default behavior of an event and prevent it from propagating further.
+                    event.preventDefault(): This function is called to prevent the default behavior associated with an event. For example, when a form is submitted, the default behavior is to refresh the page or redirect to another URL. By calling event.preventDefault(), you can stop this default behavior from occurring. In the provided code, it is used to prevent the form from being submitted and the page from refreshing when the "Secure login" button is clicked.
+                    event.stopPropagation(): This function is called to stop the event from propagating further to other elements in the DOM (Document Object Model). Event propagation means that an event occurring on a nested element can trigger the same event on its parent elements. By calling event.stopPropagation(), you can prevent the event from bubbling up the DOM tree. In the provided code, it is used to stop the click event from propagating to parent elements after handling it within the "Secure login" button click event handler.
+                    In summary, these functions are used to control and modify the default behavior and event propagation of specific events in JavaScript.
+                */
+                event.preventDefault();
+                event.stopPropagation();
+
+                // Fetch form to apply custom Bootstrap validation
+                var form = $("#js-login");
+
+                if (form[0].checkValidity() === false) {
+                    form.addClass('was-validated');
+                } else {
+
+
+
+                   
+
+                    department_Var = document.getElementById("department").value;
+
+                    if (department_Var == "HR") {
+                        Level_var = 3;
+                    }
+                    else {
+                        Level_var = 1;
+                    }
+                    
+
+                    var data = {
+                        Username: $("#emailverify").val(),
+                        First_Name: $("#fname").val(),
+                        Last_Name: $("#lname").val(),
+                        Department: $("#department").val(),
+                        Level: Level_var,
+                        Phone_Number: $("#number").val(),
+                        Password: $("#userpassword").val()
+                    };
+
+
+                        $.ajax({
+                            url: "/Home/CreateEmployee",
+                            type: "POST",
+                            data: data,
+                            success: function (response) {
+                                if (response === "User added Successfuly") {
+                                    toastr["success"]("Register Successful");
+                                    console.log(data);
+
+
+                                    setTimeout(function () {
+                                        window.location.href = "/Home/after_register";
+                                    }, 5000); // Delay the redirection by 4 seconds (4000 milliseconds)
+
+                                } else if (response === "User Already taken") {
+                                    console.log(data);
+
+                                    Swal.fire({
+                                        title: 'Hold Up!',
+                                        text: 'User Already Taken',
+                                        icon: 'warning',
+                                        confirmButtonText: 'Continue'
+                                    });
+                                }
+                            },
+                            error: function (x, y, z) {
+                                console.log(data);
+
+                                Swal.fire({
+                                    title: 'Error!',
+                                    text: 'Something went wrong with your request',
+                                    icon: 'error',
+                                    confirmButtonText: 'Continue'
+                                });
+                                console.log(x, y, z);
+                            }
+                        });
+
+                }
+            });
+        });
+
+
+
+
+
+    </script>
+</body>
+</html>
+
+

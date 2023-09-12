@@ -1,0 +1,367 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>
+        Landing Page
+    </title>
+    <meta name="description" content="Login">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" sizes="180x180" href="~/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/favicon-32x32.png">
+    <link rel="mask-icon" href="~/safari-pinned-tab.svg" color="#5bbad5">
+    <!-- Optional: page related CSS-->
+    <!--<link rel="stylesheet" media="screen, print" href="css/fa-brands.css"> -->
+
+    <script>
+    var username_global = ""; // Define the global variable
+
+
+   </script>
+    
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="page-inner bg-brand-gradient">
+            <div class="page-content-wrapper bg-transparent m-0">
+                <div class="height-10 w-100 shadow-lg px-4 bg-brand-gradient">
+                    <div class="d-flex align-items-center container p-0">
+                        <div class="page-logo width-mobile-auto m-0 align-items-center justify-content-center p-0 bg-transparent bg-img-none shadow-0 height-9">
+                            <a href="javascript:void(0)" class="page-logo-link press-scale-down d-flex align-items-center">
+                                <img src="~/logo.png" alt="SmartAdmin WebApp" aria-roledescription="logo">
+                                <span class="page-logo-text mr-1">Employee Portal</span>
+                            </a>
+                        </div>
+
+                
+                        <a id="create_user_text" class="btn-link text-white ml-auto">
+                            Create a New Account
+                        </a>
+
+
+                    </div>
+                </div>
+                <div class="flex-1" style="background: url(/pattern-1.svg) no-repeat center bottom fixed; background-size: cover;">
+                    <div class="container py-4 py-lg-5 my-lg-5 px-4 px-sm-0">
+                        <div class="row">
+
+                            <div class="col col-md-6 col-lg-7 hidden-sm-down">
+
+
+                                <h2 class="fs-xxl fw-500 mt-4 text-white">
+                                    Employee Portal
+                                    <small class="h3 fw-300 mt-3 mb-5 text-white opacity-60">
+                                        Welcome to our Employee Portal!
+
+                                        Your one-stop destination for company updates, HR resources, training materials, and seamless collaboration across teams. Experience the power of streamlined information and connectivity as we embark on this journey together.
+
+                                        Empower. Engage. Excel.
+                                    </small>
+                                </h2>
+
+
+
+                                <br />
+
+
+                                <br />
+
+
+                                <div class="d-sm-flex flex-column align-items-center justify-content-center d-md-block">
+                                    <div class="px-0 py-1 mt-5 text-white fs-nano opacity-50">
+                                        Find us on social media
+                                    </div>
+
+
+
+
+                                    <div class="d-flex flex-row opacity-70">
+                                        <a href="#" class="mr-2 fs-xxl text-white">
+                                            <i class="fab fa-facebook-square"></i>
+                                        </a>
+                                        <a href="#" class="mr-2 fs-xxl text-white">
+                                            <i class="fab fa-twitter-square"></i>
+                                        </a>
+                                        <a href="#" class="mr-2 fs-xxl text-white">
+                                            <i class="fab fa-google-plus-square"></i>
+                                        </a>
+                                        <a href="#" class="mr-2 fs-xxl text-white">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+                                <!--   Add moving images here-->
+                            </div>
+
+                
+                                <div class="col-sm-12 col-md-6 col-lg-5 col-xl-4 ml-auto">
+                                    <h1 class="text-white fw-300 mb-3 d-sm-block d-md-none">
+                                        Secure login
+                                    </h1>
+                                    <div class="card p-4 rounded-plus bg-faded">
+                                        <form id="js-login" novalidate="" action="intel_analytics_dashboard.html">
+                                            <div class="form-group">
+                                                <label class="form-label" for="username">Username</label>
+                                                <input type="email" id="username" class="form-control form-control-lg" placeholder="Your ID or Email" required>
+                                                <div class="invalid-feedback">No, you missed this one.</div>
+                                                <div class="help-block">Your unique username for the app</div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="form-label" for="password">Password</label>
+                                                <input type="password" id="password" class="form-control form-control-lg" placeholder="Password" required>
+                                                <div class="invalid-feedback">Sorry, you missed this one.</div>
+                                                <div class="help-block">Your password</div>
+                                            </div>
+
+                                            <div class="form-group text-left">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input  disabled type="checkbox" class="custom-control-input" id="rememberme">
+                                                    <label class="custom-control-label" for="rememberme">Remember me</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="d-flex flex-column">
+                                                <button id="js-login-btn" type="button" class="btn btn-primary btn-block btn-lg mb-2">Secure Login</button>
+                                                <a id="forgot-password-btn" href="#">Forgot Password</a>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="position-absolute pos-bottom pos-left pos-right p-3 text-center text-white">
+                            2022 © InternProject by&nbsp;<a href='https://www.gotbootstrap.com' class='text-white opacity-40 fw-500' title='gotbootstrap.com' target='_blank'>Ahmed Hassanin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <script>
+
+        $(document).ready(function () {
+
+
+
+
+
+            $("#forgot-password-btn").click(function (event) {
+
+                window.location.href = "/Home/forgot_password";
+            });
+            
+
+
+
+
+            async function register_page_selector() {
+                const swalWithBootstrapButtons = Swal.mixin({
+                    customClass: {
+                        confirmButton: 'btn btn-danger',
+                        cancelButton: 'btn btn-danger'
+                    },
+                    buttonsStyling: false
+                })
+
+                swalWithBootstrapButtons.fire({
+                    title: 'Do you want an auto-generated password sent to your email.',
+                    text: "You won't be able to revert this!",
+                    icon: 'question',
+                    showCancelButton: true,
+                    confirmButtonText: 'Yes',
+                    cancelButtonText: 'No',
+                    reverseButtons: true
+                }).then((result) => {
+                    if (result.isConfirmed) {
+ 
+                        window.location.href = "/Home/page_register_autopass";
+
+                        
+                    } else if (
+                        /* Read more about handling dismissals below */
+                        result.dismiss === Swal.DismissReason.cancel
+                    ) {
+                        window.location.href = "/Home/page_register";
+
+                    }
+                })
+            }
+
+            // Call the adminValidation function when the link is clicked
+            $("#create_user_text").on('click', function () {
+                register_page_selector();
+            });
+
+
+
+
+
+            async function adminValidation() {
+                const { value: password } = await Swal.fire({
+                    title: 'Enter admin password',
+                    input: 'password',
+                    inputLabel: 'Password',
+                    inputPlaceholder: 'Enter your password',
+                    inputAttributes: {
+                        maxlength: 10,
+                        autocapitalize: 'off',
+                        autocorrect: 'off'
+                    }
+                });
+
+                if (password == "admin") {
+                    window.location.href = '/Home/Users_table';
+                }
+                else {
+                    Swal.fire({
+                        title: 'Error',
+                        text: 'Incorrect Password',
+                        icon: 'error',
+                        confirmButtonText: 'Continue'
+                    });
+                }
+            }
+
+            // Call the adminValidation function when the link is clicked
+            $("#admin_button").on('click', function () {
+                adminValidation();
+            });
+
+
+
+
+            $("#js-login-btn").click(function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+
+                var usr_name = $("#username").val();
+                var password = $("#password").val();
+                username_global = usr_name;
+
+                localStorage.setItem("cardName", username_global)
+
+
+                var form = $("#js-login");
+
+                if (form[0].checkValidity() === false) {
+                    form.addClass('was-validated');
+                } else {
+
+                    $.ajax({
+                        url: `/Home/getNames?username=${username_global}`,
+                        type: 'GET',
+                        dataType: 'json',
+                        success: function (response) {
+                            console.log(response);
+
+                            console.log(response.first_Name);
+                            console.log(response.last_Name);
+                            console.log(response.id);
+
+                            var firstName_card = response.first_Name;
+                            var lastName_card = response.last_Name;
+                            var Id = response.id
+
+                            localStorage.setItem("firstName_card", firstName_card);
+                            localStorage.setItem("lastName_card", lastName_card);
+                            localStorage.setItem("Id", Id)
+
+
+
+
+                        },
+                        error: function (xhr, status, error) {
+                            console.error('Ajax request error:', error);
+                        }
+                    });
+               
+
+
+
+
+                    $.ajax({
+                        url: `/Home/Authenticate?username=${usr_name}&pass=${password}`,
+                        type: "POST",
+                        success: function (response) {
+                            if (response === "Authentication successful") {
+                                toastr["success"]("Login Successful");
+
+
+
+                                $.ajax({
+                                    url: '/Home/getLevel',
+                                    type: 'Post',
+                                    data: { username: usr_name },
+
+                                    success: function (response) {
+                                        console.log(response);
+
+                                        if (response == "Level_3") {
+                                            setTimeout(function () {
+                                                form.addClass('was-validated');
+                                                window.location.href = "/Home/dashboard_hr";
+                                            }, 1500); // Delay the redirection by 5 seconds (5000 milliseconds)
+                                        }
+
+                                        else if (response == "Level_2") {
+
+                                            setTimeout(function () {
+                                                form.addClass('was-validated');
+                                                window.location.href = "/Home/dashboard_leader";
+                                            }, 1500); // Delay the redirection by 5 seconds (5000 milliseconds)
+
+                                        }
+                                       else {
+                                            setTimeout(function () {
+                                                form.addClass('was-validated');
+                                                window.location.href = "/Home/main";
+                                            }, 1500); // Delay the redirection by 5 seconds (5000 milliseconds)
+                                        }
+                                        },
+                                    error: function (xhr, status, error) {
+                                        console.error('Ajax request error:', error);
+                                    }
+                                });
+
+                            } else {
+                                Swal.fire({
+                                    title: 'Hold Up!',
+                                    text: 'Incorect username or password ',
+                                    icon: 'warning',
+                                    confirmButtonText: 'Continue'
+                                });
+                            }
+                        },
+                        error: function (x, y, z) {
+                            Swal.fire({
+                                title: 'Error!',
+                                text: 'Something went wrong with your request',
+                                icon: 'error',
+                                confirmButtonText: 'Continue'
+                            });
+                            console.log(x, y, z);
+                        }
+                    });
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>

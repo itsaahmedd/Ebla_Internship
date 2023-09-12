@@ -1,0 +1,1323 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>
+        Page Titile - category_1 - SmartAdmin v4.0.2
+    </title>
+    <meta name="description" content="Page Titile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="~/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/favicon-32x32.png">
+    <link rel="mask-icon" href="~/safari-pinned-tab.svg" color="#5bbad5">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+
+    <script>var cardName_var = localStorage.getItem("cardName");
+        if (cardName_var !== null) {
+            cardName = cardName_var;
+            console.log(cardName)
+        }
+        var idCard_var = localStorage.getItem("Id");
+        if (idCard_var !== null) {
+            Id_card = idCard_var;
+            console.log(Id_card)
+        }
+        var firstName_card_var = localStorage.getItem("firstName_card");
+        if (firstName_card_var !== null) {
+            firstName_card = firstName_card_var;
+            console.log(firstName_card)
+        }
+
+        var lastName_card_var = localStorage.getItem("lastName_card");
+        if (lastName_card_var !== null) {
+            lastName_card = lastName_card_var;
+            console.log(lastName_card)
+        }</script>
+
+
+</head>
+
+
+<body class="mod-bg-1 ">
+
+
+
+    <!-- BEGIN Page Wrapper -->
+    <div class="page-wrapper">
+        <div class="page-inner">
+            <!-- BEGIN Left Aside -->
+            <aside class="page-sidebar">
+                <div class="page-logo">
+                    <a href="#" class="page-logo-link press-scale-down d-flex align-items-center position-relative" data-toggle="modal" data-target="#modal-shortcut">
+                        <img src="~/logo.png" alt="SmartAdmin WebApp" aria-roledescription="logo">
+                        <span class="page-logo-text mr-1">InternShip Project</span>
+                        <span class="position-absolute text-white opacity-50 small pos-top pos-right mr-2 mt-n2"></span>
+                        <i class="fal fa-angle-down d-inline-block ml-1 fs-lg color-primary-300"></i>
+                    </a>
+                </div>
+                <!-- BEGIN PRIMARY NAVIGATION -->
+                <nav id="js-primary-nav" class="primary-nav" role="navigation">
+                    <div class="nav-filter">
+                        <div class="position-relative">
+                            <input type="text" id="nav_filter_input" placeholder="Filter menu" class="form-control" tabindex="0">
+                            <a href="#" onclick="return false;" class="btn-primary btn-search-close js-waves-off" data-action="toggle" data-class="list-filter-active" data-target=".page-sidebar">
+                                <i class="fal fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <img src="~/avatar.png" class="profile-image rounded-circle" alt="Dr. Codex Lantern">
+                        <div class="info-card-text">
+                            <a href="#" class="d-flex align-items-center text-white">
+                                <span id="card_name" class="text-truncate text-truncate-sm d-inline-block">
+                                    @Model
+
+                                    <script>var spanElement = document.getElementById("card_name");
+
+                                        // Update the span element's text content with the value of the username_global variable
+                                        spanElement.textContent = firstName_card;</script>
+                                </span>
+                            </a>
+
+
+
+
+
+
+                            <span class="d-inline-block text-truncate text-truncate-sm">Kuwait</span>
+                        </div>
+                        <img src="~/cover-5-lg.png" class="cover" alt="cover">
+                        <a href="#" onclick="return false;" class="pull-trigger-btn" data-action="toggle" data-class="list-filter-active" data-target=".page-sidebar" data-focus="nav_filter_input">
+                            <i class="fal fa-angle-down"></i>
+                        </a>
+                    </div>
+
+                    <!--START OF NAVIGATION COLUoMN-->
+                    <ul id="js-nav-menu" class="nav-menu">
+
+
+
+
+                        <li class="nav-title">Tasks and Requests</li>
+                        <li>
+                            <a href="#" title="Package Info" data-filter-tags="package info">
+                                <i class="fal fa-tag"></i>
+                                <span class="nav-link-text" data-i18n="nav.package_info">Tasks & Requests</span>
+                            </a>
+                            <ul>
+
+                                <li>
+                                    <a href="/Home/task_assign" title="Documentation" data-filter-tags="package info documentation">
+                                        <span class="nav-link-text" data-i18n="nav.package_info_documentation">Assign Tasks</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/Home/assigned_tasks" title="Documentation" data-filter-tags="package info documentation">
+                                        <span class="nav-link-text" data-i18n="nav.package_info_documentation">View Assigned Tasks</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/Home/request_add" title="Product Licensing" data-filter-tags="package info product licensing">
+                                        <span class="nav-link-text" data-i18n="nav.package_info_product_licensing">Add a request</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/Home/assigned_requests" title="Different Flavors" data-filter-tags="package info different flavors">
+                                        <span class="nav-link-text" data-i18n="nav.package_info_different_flavors">Request follow-up</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li>
+
+                        <li class="nav-title">Book an Appointment</li>
+                        <li>
+
+                        </li>
+                        <li>
+                            <a href="#" title="Font Icons" data-filter-tags="font icons">
+                                <i class="fal fa-map-marker-alt"></i>
+                                <span class="nav-link-text" data-i18n="nav.font_icons">Our Locations   </span>
+                                <span class="dl-ref bg-primary-500 hidden-nav-function-minify hidden-nav-function-top">      3 locations</span>
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0);" title="FontAwesome" data-filter-tags="font icons fontawesome">
+                                        <span class="nav-link-text" data-i18n="nav.font_icons_fontawesome"> Kuwait City </span>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="icons_fontawesome_light.html" title="Light" data-filter-tags="font icons fontawesome light">
+                                                <span class="nav-link-text" data-i18n="nav.font_icons_fontawesome_light">Info</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="icons_fontawesome_regular.html" title="Regular" data-filter-tags="font icons fontawesome regular">
+                                                <span class="nav-link-text" data-i18n="nav.font_icons_fontawesome_regular">Contact </span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" title="NextGen Icons" data-filter-tags="font icons nextgen icons">
+                                        <span class="nav-link-text" data-i18n="nav.font_icons_nextgen_icons">Ahmadi</span>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="icons_nextgen_general.html" title="General" data-filter-tags="font icons nextgen icons general">
+                                                <span class="nav-link-text" data-i18n="nav.font_icons_nextgen_icons_general">Info</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="icons_nextgen_base.html" title="Base" data-filter-tags="font icons nextgen icons base">
+                                                <span class="nav-link-text" data-i18n="nav.font_icons_nextgen_icons_base">Conatct</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" title="Stack Icons" data-filter-tags="font icons stack icons">
+                                        <span class="nav-link-text" data-i18n="nav.font_icons_stack_icons">Salwa</span>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="icons_stack_showcase.html" title="Showcase" data-filter-tags="font icons stack icons showcase">
+                                                <span class="nav-link-text" data-i18n="nav.font_icons_stack_icons_showcase">Info</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="icons_stack_generate.html?layers=3" title="Generate Stack" data-filter-tags="font icons stack icons generate stack">
+                                                <span class="nav-link-text" data-i18n="nav.font_icons_stack_icons_generate_stack">Conatct</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="Tables" data-filter-tags="tables">
+                                <i class="fal fa-th-list"></i>
+                                <span class="nav-link-text" data-i18n="nav.tables">Book an appointment</span>
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="/Home/appointment" title="Basic Tables" data-filter-tags="book">
+                                        <span class="nav-link-text" data-i18n="nav.tables_basic_tables">Book new appointment</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+
+                    </ul>
+                    <div class="filter-message js-filter-message bg-success-600"></div>
+                </nav>
+                <!-- END PRIMARY NAVIGATION -->
+                <!-- NAV FOOTER -->
+                <div class="nav-footer shadow-top">
+                    <a href="#" onclick="return false;" data-action="toggle" data-class="nav-function-minify" class="hidden-md-down">
+                        <i class="ni ni-chevron-right"></i>
+                        <i class="ni ni-chevron-right"></i>
+                    </a>
+                    <ul class="list-table m-auto nav-footer-buttons">
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" title="Chat logs">
+                                <i class="fal fa-comments"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" title="Support Chat">
+                                <i class="fal fa-life-ring"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="tooltip" data-placement="top" title="Make a call">
+                                <i class="fal fa-phone"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div> <!-- END NAV FOOTER -->
+            </aside>
+            <!-- END Left Aside -->
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="page-content-wrapper">
+                <!-- BEGIN Page Header -->
+                <header class="page-header" role="banner">
+                    <!-- we need this logo when user switches to nav-function-top -->
+                    <div class="page-logo">
+                        <a href="#" class="page-logo-link press-scale-down d-flex align-items-center position-relative" data-toggle="modal" data-target="#modal-shortcut">
+                            <img src="~/logo.png" alt="SmartAdmin WebApp" aria-roledescription="logo">
+                            <span class="page-logo-text mr-1">SmartAdmin WebApp</span>
+                            <span class="position-absolute text-white opacity-50 small pos-top pos-right mr-2 mt-n2"></span>
+                            <i class="fal fa-angle-down d-inline-block ml-1 fs-lg color-primary-300"></i>
+                        </a>
+                    </div>
+                    <!-- DOC: nav menu layout change shortcut -->
+                    <div class="hidden-md-down dropdown-icon-menu position-relative">
+                        <a href="#" class="header-btn btn js-waves-off" data-action="toggle" data-class="nav-function-hidden" title="Hide Navigation">
+                            <i class="ni ni-menu"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#" class="btn js-waves-off" data-action="toggle" data-class="nav-function-minify" title="Minify Navigation">
+                                    <i class="ni ni-minify-nav"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn js-waves-off" data-action="toggle" data-class="nav-function-fixed" title="Lock Navigation">
+                                    <i class="ni ni-lock-nav"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- DOC: mobile button appears during mobile width -->
+                    <div class="hidden-lg-up">
+                        <a href="#" class="header-btn btn press-scale-down" data-action="toggle" data-class="mobile-nav-on">
+                            <i class="ni ni-menu"></i>
+                        </a>
+                    </div>
+
+
+                    <div class="ml-auto d-flex">
+
+                        <!-- app settings -->
+                        <div class="hidden-md-down">
+                            <a href="#" class="header-icon" data-toggle="modal" data-target=".js-modal-settings">
+                                <i class="fal fa-cog"></i>
+                            </a>
+                        </div>
+
+
+
+                        <!-- app user menu -->
+                        <div>
+                            <a href="#" data-toggle="dropdown" title="drlantern@gotbootstrap.com" class="header-icon d-flex align-items-center justify-content-center ml-2">
+                                <img src="~/avatar.png" class="profile-image rounded-circle" alt="Dr. Codex Lantern">
+                                <!-- you can also add username next to the avatar with the codes below:
+                                <span class="ml-1 mr-1 text-truncate text-truncate-header hidden-xs-down">Me</span>
+                                <i class="ni ni-chevron-down hidden-xs-down"></i> -->
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-animated dropdown-lg">
+                                <div class="dropdown-header bg-trans-gradient d-flex flex-row py-4 rounded-top">
+                                    <div class="d-flex flex-row align-items-center mt-1 mb-1 color-white">
+                                        <span class="mr-2">
+                                            <img src="~/avatar.png" class="rounded-circle profile-image" alt="profile_pic">
+                                        </span>
+                                        <div class="info-card-text">
+                                            <div id="cardName_name" class="fs-lg text-truncate text-truncate-lg">User</div>
+                                            <span id="cardNameSpan"
+                                                  class="text-truncate text-truncate-md opacity-80"></span>
+                                            <script>document.getElementById("cardNameSpan").textContent = cardName;
+                                                document.getElementById("cardName_name").textContent = firstName_card + " " + lastName_card;</script>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dropdown-divider m-0"></div>
+                                <a href="#" class="dropdown-item" data-action="app-reset">
+                                    <span data-i18n="drpdwn.reset_layout">Reset Layout</span>
+                                </a>
+                                <a href="#" class="dropdown-item" data-toggle="modal" data-target=".js-modal-settings">
+                                    <span data-i18n="drpdwn.settings">Settings</span>
+                                </a>
+                                <div class="dropdown-divider m-0"></div>
+                                <a href="#" class="dropdown-item" data-action="app-fullscreen">
+                                    <span data-i18n="drpdwn.fullscreen">Fullscreen</span>
+                                    <i class="float-right text-muted fw-n">F11</i>
+                                </a>
+                                <a href="#" class="dropdown-item" data-action="app-print">
+                                    <span data-i18n="drpdwn.print">Print</span>
+                                    <i class="float-right text-muted fw-n">Ctrl + P</i>
+                                </a>
+
+                                <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item fw-500 pt-3 pb-3" onclick="logout()">
+                                    <span data-i18n="drpdwn.page-logout">Logout</span>
+                                    <span id="logout_email" class="float-right fw-n">&commat;</span>
+                                    <script>// Replace 'cardName' with the actual cardName value you want to display
+                                        document.getElementById("logout_email").textContent = cardName;
+
+                                        function logout() {
+                                            Swal.fire({
+                                                title: 'Are you sure?',
+                                                text: "You won't be able to revert this!",
+                                                icon: 'warning',
+                                                showCancelButton: true,
+                                                confirmButtonColor: '#3085d6',
+                                                cancelButtonColor: '#d33',
+                                                confirmButtonText: 'Yes'
+                                            }).then((result) => {
+                                                if (result.isConfirmed) {
+                                                    // Clear local storage
+                                                    localStorage.clear();
+
+                                                    // Redirect to the /Home/Index page
+                                                    window.location.href = '/Home/Index';
+                                                }
+                                            });
+                                        }</script>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- END Page Header -->
+                <!-- BEGIN Page Content -->
+                <!-- the #js-page-content id is needed for some plugins to initialize -->
+                <main id="js-page-content" role="main" class="page-content">
+                    <ol class="breadcrumb page-breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0);">SmartAdmin</a></li>
+
+                        <li class="breadcrumb-item active"> Home </li>
+                        <li class="position-absolute pos-top pos-right d-none d-sm-block"><span class="js-get-date"></span></li>
+                    </ol>
+                    <div class="subheader">
+                        <h1 class="subheader-title">
+                            <i class='subheader-icon fal fa-'></i> Team Leader Dashboard <span class='fw-300'></span> <sup class='badge badge-primary fw-500'></sup>
+
+  
+                        </h1>
+                        <div class="subheader-block">
+                            <!--Right content of header-->
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-xl-6">
+                            <div id="panel-1" class="panel">
+                                <div class="panel-hdr">
+                                    <h2>
+                                        Assigned to me<span class="fw-300"></span>
+                                    </h2>
+                                    <!--
+                <div class="panel-toolbar">
+                    <button class="btn btn-panel" data-action="panel-collapse" data-toggle="tooltip" data-offset="0,10" data-original-title="Collapse"></button>
+                    <button class="btn btn-panel" data-action="panel-fullscreen" data-toggle="tooltip" data-offset="0,10" data-original-title="Fullscreen"></button>
+                    <button class="btn btn-panel" data-action="panel-close" data-toggle="tooltip" data-offset="0,10" data-original-title="Close"></button>
+                </div>
+                -->
+                                </div>
+                                <div class="panel-container show">
+                                    <div class="panel-container show">
+                                        <div class="panel-content">
+                                            <div class="frame-wrap">
+                                                <table id="my_table_103" class="table table-sm m-0">
+                                                    <thead class="bg-primary-500">
+                                                        <tr>
+                                                            <th>Subject</th>
+                                                            <th> Date</th>
+                                                            <th>Details</th>
+
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                            <a href="javascript:void(0);" class="h4" data-toggle="modal" data-target="#manage-task-modal">
+                                                <i class="fal fa-chevron-right mr-2"></i> Manage Task
+                                            </a>
+
+                                            <!--ADD TEXT HERE-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-6">
+                            <div id="panel-2" class="panel">
+                                <div class="panel-hdr">
+                                    <h2>
+                                        Announcements<span class="fw-300"></span>
+                                    </h2>
+                                    <!--
+                <div class="panel-toolbar">
+                    <button class="btn btn-panel" data-action="panel-collapse" data-toggle="tooltip" data-offset="0,10" data-original-title="Collapse"></button>
+                    <button class="btn btn-panel" data-action="panel-fullscreen" data-toggle="tooltip" data-offset="0,10" data-original-title="Fullscreen"></button>
+                    <button class="btn btn-panel" data-action="panel-close" data-toggle="tooltip" data-offset="0,10" data-original-title="Close"></button>
+                </div>
+                -->
+                                </div>
+                                <div class="panel-container show">
+                                    <div class="panel-content">
+
+
+
+
+                                        <div class="frame-wrap">
+                                            <table id="my_table_101" class="table table-sm m-0">
+                                                <thead class="bg-primary-500">
+                                                    <tr>
+                                                        <th>Subject</th>
+                                                        <th> Date</th>
+                                                        <th>Details</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+
+
+                                        <!--THIS LINE IS THE TEXT-->
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <style>
+                            /* Add this CSS to control the size of the chart */
+                            .chart-canvas {
+                                width: 100%; /* Use 100% width to fill its container */
+                                height: auto; /* Let the height adjust proportionally */
+                                max-width: 400px; /* Limit the maximum width if needed */
+                                max-height: 400px; /* Limit the maximum height if needed */
+                            }
+                        </style>
+
+                        <div class="col-xl-6">
+                            <div id="panel-3" class="panel">
+                                <div class="panel-hdr">
+                                    <br />
+                                    <h2> Task Assignment Activity<span class="fw-300"></span></h2>
+                                </div>
+                                <div class="panel-container show">
+                                    <div class="panel-content">
+                                        <canvas id="taskPieChart" class="chart-canvas" width="400" height="400"></canvas>
+                                        <div id="taskInfo">
+
+                                            <p>Visual representation of task assignment status:</p>
+                                            <ul>
+                                                <li><span style="color: rgba(75, 192, 192, 0.7);">&#9679;</span> Completed Tasks</li>
+                                                <li><span style="color: rgba(255, 99, 132, 0.7);">&#9679;</span> Pending Tasks</li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script src="/js/chart.js"></script>
+
+                        <script>const ctx = document.getElementById('taskPieChart').getContext('2d');
+
+                            console.log('Before fetch');
+
+                            // Fetch the percentage data from the server for a specific user (cardName)
+                            fetch(`/Home/getTasksByLeader_pie?cardName=${cardName}`)
+                                .then(response => {
+                                    console.log('Response received'); // Log when the response is received
+                                    return response.json();
+                                })
+                                .then(data => {
+                                    console.log('Data received:', data); // Log the data received
+                                    const percentageCompleted = data.completedPercentage;
+                                    const percentagePending = data.pendingPercentage;
+
+                                    const chartData = {
+                                        labels: ['Completed', 'Pending'],
+                                        datasets: [{
+                                            data: [percentageCompleted, percentagePending],
+                                            backgroundColor: [
+                                                'rgba(75, 192, 192, 0.7)', // Green for Completed
+                                                'rgba(255, 99, 132, 0.7)', // Red for Pending
+                                            ],
+                                        }],
+                                    };
+
+                                    const options = {
+                                        responsive: true,
+                                        maintainAspectRatio: false,
+                                        legend: {
+                                            position: 'top', // You can change the legend position as needed
+                                        },
+                                        tooltips: {
+                                            callbacks: {
+                                                label: function (tooltipItem, data) {
+                                                    const dataset = data.datasets[tooltipItem.datasetIndex];
+                                                    const total = dataset.data.reduce((previousValue, currentValue) => previousValue + currentValue);
+                                                    const currentValue = dataset.data[tooltipItem.index];
+                                                    const percentage = ((currentValue / total) * 100).toFixed(2);
+                                                    return `${data.labels[tooltipItem.index]}: ${percentage}%`;
+                                                },
+                                            },
+                                        },
+                                    };
+
+                                    console.log('Before creating the chart');
+                                    // Create the pie chart
+                                    new Chart(ctx, {
+                                        type: 'pie',
+                                        data: chartData,
+                                        options: options,
+                                    });
+                                })
+                                .catch(error => {
+                                    console.error('Error fetching data:', error);
+                                });
+
+                            console.log('After fetch');</script>
+
+
+
+                        <div class="col-xl-6">
+                            <div id="panel-4" class="panel">
+                                <div class="panel-hdr">
+                                    <h2>
+                                        My Requests<span class="fw-300"></span>
+                                    </h2>
+                                </div>
+                                <div class="panel-container show">
+                                    <div class="panel-content">
+                                        <div class="frame-wrap">
+                                            <table id="my_table_102" class="table table-sm m-0">
+                                                <thead class="bg-primary-500">
+                                                    <tr>
+                                                        <th>Subject</th>
+                                                        <th>Date</th>
+                                                        <th>Details</th>
+                                                        <th>Status</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <!-- Table content goes here -->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!-- ADD TEXT HERE -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Second Panel for the Chart -->
+                            <div id="chartPanel" class="panel">
+                                <div class="panel-hdr">
+                                    <h2>
+                                        Chart<span class="fw-300"></span>
+                                    </h2>
+                                </div>
+                                <div class="panel-container show">
+                                    <div class="panel-content">
+                                        <div id="chartContainer">
+                                            <canvas id="taskChart"></canvas>
+                                        </div>
+                                        <script>// Load chart data via AJAX
+                                            $.get("/Home/getTasksByLeader_barchart?cardName=" + cardName, function (data) {
+                                                var ctx = document.getElementById('taskChart').getContext('2d');
+
+                                                // Create the chart
+                                                var chart = new Chart(ctx, {
+                                                    type: 'bar',
+                                                    data: data,
+                                                    options: {
+                                                        scales: {
+                                                            y: {
+                                                                beginAtZero: true,
+                                                                title: {
+                                                                    display: true,
+                                                                    text: 'Number of Tasks'
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                });
+                                            });</script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </main>
+                <!-- this overlay is activated only when mobile menu is triggered -->
+                <div class="page-content-overlay" data-action="toggle" data-class="mobile-nav-on"></div> <!-- END Page Content -->
+                <!-- BEGIN Page Footer -->
+                <footer class="page-footer" role="contentinfo">
+                    <div class="d-flex align-items-center flex-1 text-muted">
+                        <span class="hidden-md-down fw-700">2023 © Booking Software by&nbsp;<a href='linkedin.com/in/ahmed-hassanin-677527265' class='text-primary fw-500' title='linkedin.com/in/ahmed-hassanin-677527265' target='_blank'>Ahmed Hassanin</a></span>
+                    </div>
+                    <div>
+                        <ul class="list-table m-0">
+                            <li><a href="intel_introduction.html" class="text-secondary fw-700">About</a></li>
+                            <li class="pl-3"><a href="info_app_licensing.html" class="text-secondary fw-700">License</a></li>
+                            <li class="pl-3"><a href="info_app_docs.html" class="text-secondary fw-700">Documentation</a></li>
+                            <li class="pl-3 fs-xl"><a href="https://wrapbootstrap.com/user/MyOrange" class="text-secondary" target="_blank"><i class="fal fa-question-circle" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </footer>
+                <!-- END Page Footer -->
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- END Page Wrapper -->
+    <!-- BEGIN Quick Menu -->
+    <!-- to add more items, please make sure to change the variable '$menu-items: number;' in your _page-components-shortcut.scss -->
+    <nav class="shortcut-menu d-none d-sm-block">
+        <input type="checkbox" class="menu-open" name="menu-open" id="menu_open" />
+        <label for="menu_open" class="menu-open-button ">
+            <span class="app-shortcut-icon d-block"></span>
+        </label>
+        <a href="#" class="menu-item btn" data-toggle="tooltip" data-placement="left" title="Scroll Top">
+            <i class="fal fa-arrow-up"></i>
+        </a>
+        <a href="#" class="menu-item btn" data-toggle="tooltip" data-placement="left" title="Logout" onclick="logout()">
+            <i class="fal fa-sign-out"></i>
+        </a>
+
+        <script>// Replace 'cardName' with the actual cardName value you want to display
+            document.getElementById("logout_email").textContent = cardName;
+
+            function logout() {
+                Swal.fire({
+                    title: 'Are you sure?',
+                    text: "You won't be able to revert this!",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Yes'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        // Clear local storage
+                        localStorage.clear();
+
+                        // Redirect to the /Home/Index page
+                        window.location.href = '/Home/Index';
+                    }
+                });
+            }</script>
+
+        <a href="#" class="menu-item btn" data-action="app-fullscreen" data-toggle="tooltip" data-placement="left" title="Full Screen">
+            <i class="fal fa-expand"></i>
+        </a>
+        <a href="#" class="menu-item btn" data-action="app-print" data-toggle="tooltip" data-placement="left" title="Print page">
+            <i class="fal fa-print"></i>
+        </a>
+
+    </nav>
+    <!-- END Quick Menu -->
+    <!-- BEGIN Page Settings -->
+    <div class="modal fade js-modal-settings modal-backdrop-transparent" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-right modal-md">
+            <div class="modal-content">
+                <div class="dropdown-header bg-trans-gradient d-flex justify-content-center align-items-center w-100">
+                    <h4 class="m-0 text-center color-white">
+                        Layout Settings
+                        <small class="mb-0 opacity-80">User Interface Settings</small>
+                    </h4>
+                    <button type="button" class="close text-white position-absolute pos-top pos-right p-2 m-1 mr-2" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fal fa-times"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="settings-panel">
+                        <div class="mt-4 d-table w-100 px-5">
+                            <div class="d-table-cell align-middle">
+                                <h5 class="p-0">
+                                    App Layout
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="list" id="fh">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="header-function-fixed"></a>
+                            <span class="onoffswitch-title">Fixed Header</span>
+                            <span class="onoffswitch-title-desc">header is in a fixed at all times</span>
+                        </div>
+                        <div class="list" id="nff">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="nav-function-fixed"></a>
+                            <span class="onoffswitch-title">Fixed Navigation</span>
+                            <span class="onoffswitch-title-desc">left panel is fixed</span>
+                        </div>
+                        <div class="list" id="nfm">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="nav-function-minify"></a>
+                            <span class="onoffswitch-title">Minify Navigation</span>
+                            <span class="onoffswitch-title-desc">Skew nav to maximize space</span>
+                        </div>
+                        <div class="list" id="nfh">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="nav-function-hidden"></a>
+                            <span class="onoffswitch-title">Hide Navigation</span>
+                            <span class="onoffswitch-title-desc">roll mouse on edge to reveal</span>
+                        </div>
+                        <div class="list" id="nft">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="nav-function-top"></a>
+                            <span class="onoffswitch-title">Top Navigation</span>
+                            <span class="onoffswitch-title-desc">Relocate left pane to top</span>
+                        </div>
+                        <div class="list" id="mmb">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="mod-main-boxed"></a>
+                            <span class="onoffswitch-title">Boxed Layout</span>
+                            <span class="onoffswitch-title-desc">Encapsulates to a container</span>
+                        </div>
+                        <div class="expanded">
+                            <ul class="">
+                                <li>
+                                    <div class="bg-fusion-50" data-action="toggle" data-class="mod-bg-1"></div>
+                                </li>
+                                <li>
+                                    <div class="bg-warning-200" data-action="toggle" data-class="mod-bg-2"></div>
+                                </li>
+                                <li>
+                                    <div class="bg-primary-200" data-action="toggle" data-class="mod-bg-3"></div>
+                                </li>
+                                <li>
+                                    <div class="bg-success-300" data-action="toggle" data-class="mod-bg-4"></div>
+                                </li>
+                            </ul>
+                            <div class="list" id="mbgf">
+                                <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="mod-fixed-bg"></a>
+                                <span class="onoffswitch-title">Fixed Background</span>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 d-table w-100 px-5">
+                            <div class="d-table-cell align-middle">
+                                <h5 class="p-0">
+                                    Accessibility
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="list" id="mbf">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="mod-bigger-font"></a>
+                            <span class="onoffswitch-title">Bigger Content Font</span>
+                            <span class="onoffswitch-title-desc">content fonts are bigger for readability</span>
+                        </div>
+                        <div class="list" id="mhc">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="mod-high-contrast"></a>
+                            <span class="onoffswitch-title">High Contrast Text (WCAG 2 AA)</span>
+                            <span class="onoffswitch-title-desc">4.5:1 text contrast ratio</span>
+                        </div>
+                        <div class="list" id="mcb">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="mod-color-blind"></a>
+                            <span class="onoffswitch-title">Daltonism <sup>(beta)</sup> </span>
+                            <span class="onoffswitch-title-desc">color vision deficiency</span>
+                        </div>
+                        <div class="list" id="mpc">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="mod-pace-custom"></a>
+                            <span class="onoffswitch-title">Preloader Inside</span>
+                            <span class="onoffswitch-title-desc">preloader will be inside content</span>
+                        </div>
+                        <div class="mt-4 d-table w-100 px-5">
+                            <div class="d-table-cell align-middle">
+                                <h5 class="p-0">
+                                    Global Modifications
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="list" id="mcbg">
+                            <a href="#" onclick="return ture;" class="btn btn-switch" data-action="true" data-class="mod-clean-page-bg"></a>
+                            <span class="onoffswitch-title">Clean Page Background</span>
+                            <span class="onoffswitch-title-desc">adds more whitespace</span>
+                        </div>
+                        <div class="list" id="mhni">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="mod-hide-nav-icons"></a>
+                            <span class="onoffswitch-title">Hide Navigation Icons</span>
+                            <span class="onoffswitch-title-desc">invisible navigation icons</span>
+                        </div>
+                        <div class="list" id="dan">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="mod-disable-animation"></a>
+                            <span class="onoffswitch-title">Disable CSS Animation</span>
+                            <span class="onoffswitch-title-desc">Disables CSS based animations</span>
+                        </div>
+                        <div class="list" id="mhic">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="mod-hide-info-card"></a>
+                            <span class="onoffswitch-title">Hide Info Card</span>
+                            <span class="onoffswitch-title-desc">Hides info card from left panel</span>
+                        </div>
+                        <div class="list" id="mlph">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="mod-lean-subheader"></a>
+                            <span class="onoffswitch-title">Lean Subheader</span>
+                            <span class="onoffswitch-title-desc">distinguished page header</span>
+                        </div>
+                        <div class="list" id="mnl">
+                            <a href="#" onclick="return false;" class="btn btn-switch" data-action="toggle" data-class="mod-nav-link"></a>
+                            <span class="onoffswitch-title">Hierarchical Navigation</span>
+                            <span class="onoffswitch-title-desc">Clear breakdown of nav links</span>
+                        </div>
+                        <div class="list mt-1">
+                            <span class="onoffswitch-title">Global Font Size <small>(RESETS ON REFRESH)</small> </span>
+                            <div class="btn-group btn-group-sm btn-group-toggle my-2" data-toggle="buttons">
+                                <label class="btn btn-default btn-sm" data-action="toggle-swap" data-class="root-text-sm" data-target="html">
+                                    <input type="radio" name="changeFrontSize"> SM
+                                </label>
+                                <label class="btn btn-default btn-sm" data-action="toggle-swap" data-class="root-text" data-target="html">
+                                    <input type="radio" name="changeFrontSize" checked=""> MD
+                                </label>
+                                <label class="btn btn-default btn-sm" data-action="toggle-swap" data-class="root-text-lg" data-target="html">
+                                    <input type="radio" name="changeFrontSize"> LG
+                                </label>
+                                <label class="btn btn-default btn-sm" data-action="toggle-swap" data-class="root-text-xl" data-target="html">
+                                    <input type="radio" name="changeFrontSize"> XL
+                                </label>
+                            </div>
+                            <span class="onoffswitch-title-desc d-block mb-0">
+                                Change <strong>root</strong> font size to effect rem
+                                values
+                            </span>
+                        </div>
+                        <hr class="mb-0 mt-4">
+                        <div class="mt-2 d-table w-100 pl-5 pr-3">
+                            <div class="fs-xs text-muted p-2 alert alert-warning mt-3 mb-2">
+                                <i class="fal fa-exclamation-triangle text-warning mr-2"></i>The settings below uses localStorage to load
+                                the external CSS file as an overlap to the base css. Due to network latency and CPU utilization, you may
+                                experience a brief flickering effect on page load which may show the intial applied theme for a split
+                                second. Setting the prefered style/theme in the header will prevent this from happening.
+                            </div>
+                        </div>
+
+                        <hr class="mb-0 mt-4">
+                        <div class="pl-5 pr-3 py-3 bg-faded">
+                            <div class="row no-gutters">
+                                <div class="col-6 pr-1">
+                                    <a href="#" class="btn btn-outline-danger fw-500 btn-block" data-action="app-reset">Reset Settings</a>
+                                </div>
+                                <div class="col-6 pl-1">
+                                    <a href="#" class="btn btn-danger fw-500 btn-block" data-action="factory-reset">Factory Reset</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <span id="saving"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--MODAL FOR Tasks-->
+
+    <div class="modal fade" id="manage-task-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirmation</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fal fa-times"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Have you completed the task?</p>
+                </div>
+                <div class="modal-footer">
+                    <button id="js-confirm-task-btn" type="button" class="btn btn-success">Yes, Completed</button>
+
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--MODAL FOR ANNOUNCEMENTS-->
+
+
+    <div class="modal fade" id="default-example-modal-lg-center" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add an Announcement</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fal fa-times"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="panel-2" class="panel">
+
+                        <div class="panel-container show">
+                            <div class="panel-content">
+                                <div class="panel-tag">
+                                    Fill in the detials below to add your announcement
+                                </div>
+                                <div class="frame-wrap">
+                                    <div class="demo">
+                                        <form>
+
+                                            <div class="form-group">
+                                                <label class="form-label" for="example-select"> Subject </label>
+                                                <select class="form-control" id="announcement-subject">
+                                                    <option>Company-wide Events</option>
+                                                    <option>Policy Updates</option>
+                                                    <option>Health and Wellness Programs</option>
+                                                    <option>Employee Recognition and Awards</option>
+                                                    <option>Holidays</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="form-label" for="example-date">Date</label>
+                                                <input class="form-control" id="announcement-date" type="date" name="date" value="2023-07-23">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label" for="simpleinput">Details</label>
+                                                <input type="text" id="announcement-details" class="form-control">
+                                            </div>
+
+                                            <div class="text-right">
+                                                <button id="js-login-btn" type="submit" class="btn btn-lg btn-default">
+                                                    <span class="fal fa-check mr-1"></span>
+                                                    Submit
+                                                </button>
+
+                                            </div>
+
+                                        </form>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>$(document).ready(function () {
+
+
+
+    
+    var selectedTaskId; // Store the selected task ID here
+
+    // Event listener for selecting a task
+    $(document).on("click", ".select-task-btn", function () {
+        selectedTaskId = $(this).data("task-id");
+        Swal.fire({
+            title: 'Success!',
+            text: 'Task has been selected sucessfuly',
+            icon: 'success',
+            confirmButtonText: 'Continue'
+        });
+    });
+
+    $("#js-confirm-task-btn").click(function () {
+        if (!selectedTaskId) {
+            Swal.fire({
+                title: 'Error!',
+                text: 'Please select a task first',
+                icon: 'error',
+                confirmButtonText: 'Continue'
+            });
+            return;
+        }
+
+        // You can directly use selectedTaskId here without fetching tasks
+        $.ajax({
+            url: `/Home/task_completed`, // Assuming this is the correct URL
+            type: "POST",
+            data: {
+                email: cardName,
+                id: selectedTaskId, // Use the selected task ID
+                empID: Id_card
+            },
+            success: function (response) {
+                if (response === "task completed successfully") {
+                    Swal.fire({
+                        title: 'Success!',
+                        text: 'Task has been completed',
+                        icon: 'success',
+                        confirmButtonText: 'Continue'
+                    });
+                } else {
+                    Swal.fire({
+                        title: 'Error!',
+                        text: 'Task was not found',
+                        icon: 'warning',
+                        confirmButtonText: 'Continue'
+                    });
+                }
+            },
+            error: function (x, y, z) {
+                console.log(x, y, z);
+                Swal.fire({
+                    title: 'Error!',
+                    text: 'Something went wrong with your request',
+                    icon: 'error',
+                    confirmButtonText: 'Continue'
+                });
+            }
+        });
+    });
+
+    $.ajax({
+        url: "/Home/GetTasksSpecific",
+        type: 'POST',
+        data: { username: cardName },
+        success: function (response) {
+            console.log(response);
+
+            if (Array.isArray(response) && response.length > 0) {
+                var tableBody = $("#my_table_103 tbody");
+                tableBody.empty(); // Clear existing rows
+
+                response.forEach(function (task) {
+                    // Define a mapping of status values to CSS classes
+                    var statusClasses = {
+                        "Pending": "table-warning",
+                        "Completed": "table-success",
+                        "Failed": "table-danger" // Fixed the spelling of "Failed"
+                    };
+
+                    var statusClass = statusClasses[task.status] || ''; // Use the correct property name
+
+                    var row = `
+                    <tr class='${statusClass}'>
+                        <td>${task.subject}</td>
+                        <td>${task.due_Date}</td>
+                        <td>${task.details}</td>
+                        <td><button class="select-task-btn" data-task-id="${task.id}">Select</button></td>
+                    </tr>
+                `;
+
+                    tableBody.append(row);
+                });
+            }
+        },
+        error: function (xhr, status, error) {
+            console.error('Ajax request error:', error);
+        }
+    });
+
+
+            // Perform the AJAX request to get announcements when the page loads
+            $.ajax({
+                url: "/Home/getAnnouncements",
+                type: 'GET',
+                dataType: 'json',
+                success: function (response) {
+                    console.log(response);
+
+                    for (var i = 0; i < response.length; i++) {
+                        console.log(response[i]);
+
+                        var row = "<tr>";
+                        row += "<td>" + response[i].subject + "</td>";
+                        row += "<td>" + response[i].date + "</td>";
+                        row += "<td>" + response[i].details + "</td>";
+
+                        row += "</tr>";
+                        $('#my_table_101 tbody').append(row);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error('Ajax request error:', error);
+                }
+            });
+
+
+
+            //The issue you're encountering is because your response from the server is an array containing a single object, and you are trying to access its properties directly.
+            //You should access the properties of the first object in the array
+
+            /*
+$.ajax({
+                url: "/Home/GetRequestsSpecific",
+            type: 'POST',
+            data: {username: cardName },
+            success: function (response) {
+                console.log(response);
+
+            if (response !== undefined && response !== null) {
+
+                            // Define a mapping of status values to CSS classes
+                            var statusClasses = {
+                "Pending": "table-warning",
+            "Accepted": "table-success",
+            "Denied": "table-danger"
+                            };
+
+            var statusClass = statusClasses[response[0].status] || '';
+
+            var row = "<tr class='" + statusClass + "'>";
+                row += "<td>" + response[0].subject + "</td>";
+                row += "<td>" + response[0].date + "</td>";
+                row += "<td>" + response[0].details + "</td>";
+                row += "<td>" + response[0].status + "</td>";
+                row += "</tr>";
+
+            $('#my_table_102 tbody').append(row);
+                        }
+                    },
+            error: function (xhr, status, error) {
+                console.error('Ajax request error:', error);
+                    }
+            });
+            */
+
+            $.ajax({
+                url: "/Home/GetRequestsSpecific",
+                type: 'POST',
+                data: { username: cardName },
+                success: function (response) {
+                    console.log(response);
+
+                    if (Array.isArray(response) && response.length > 0) {
+                        var statusClasses = {
+                            "Pending": "table-warning",
+                            "Accepted": "table-success",
+                            "Denied": "table-danger"
+                        };
+
+                        for (var i = 0; i < response.length; i++) {
+                            var request = response[i];
+                            var statusClass = statusClasses[request.status] || '';
+
+                            var row = "<tr class='" + statusClass + "'>";
+                            row += "<td>" + request.subject + "</td>";
+                            row += "<td>" + request.date + "</td>";
+                            row += "<td>" + request.details + "</td>";
+                            row += "<td>" + request.status + "</td>";
+                            row += "</tr>";
+
+                            $('#my_table_102 tbody').append(row);
+                        }
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error('Ajax request error:', error);
+                }
+            });
+
+
+            $("#js-login-btn").click(function (event) {
+                event.preventDefault();
+
+                var data = {
+                    Published_By: Id_card,
+                    Subject: $("#announcement-subject").val(),
+                    Date: $("#announcement-date").val(),
+                    Details: $("#announcement-details").val(),
+                };
+
+                $.ajax({
+                    url: "/Home/CreateAnnouncement",
+                    type: "POST",
+                    data: data,
+                    success: function (response) {
+                        console.log(response);
+
+                        if (response === "Announcment added Successfuly") {
+                            Swal.fire({
+                                title: 'Announcement added successfully',
+                                text: 'Announcement Added',
+                                icon: 'success',
+                                confirmButtonText: 'Continue'
+                            });
+                            $.ajax({
+                                url: "/Home/getAnnouncements",
+                                type: 'GET',
+                                dataType: 'json',
+                                success: function (response) {
+                                    console.log(response);
+
+                                    // Get the table and existing rows
+                                    var table = $('#my_table_101');
+                                    var existingRows = table.find('tbody tr');
+
+                                    for (var i = 0; i < response.length; i++) {
+                                        var announcement = response[i];
+                                        var isDuplicate = false;
+
+                                        // Check if the entry already exists in the table
+                                        existingRows.each(function () {
+                                            var existingRow = $(this);
+                                            var existingSubject = existingRow.find('td:eq(0)').text();
+                                            var existingDate = existingRow.find('td:eq(1)').text();
+                                            var existingDetails = existingRow.find('td:eq(2)').text();
+
+                                            if (
+                                                existingSubject === announcement.subject &&
+                                                existingDate === announcement.date &&
+                                                existingDetails === announcement.details
+                                            ) {
+                                                isDuplicate = true;
+                                                return false; // Exit the loop if a duplicate is found
+                                            }
+                                        });
+
+                                        if (!isDuplicate) {
+                                            // Add the entry if it's not a duplicate
+                                            var row = "<tr>";
+                                            row += "<td>" + announcement.subject + "</td>";
+                                            row += "<td>" + announcement.date + "</td>";
+                                            row += "<td>" + announcement.details + "</td>";
+                                            row += "</tr>";
+                                            table.find('tbody').append(row);
+                                        }
+                                    }
+                                },
+                                error: function (xhr, status, error) {
+                                    console.error('Ajax request error:', error);
+                                }
+                            });
+                        } else if (response == "Announcment already added") {
+                            console.log(data);
+                            Swal.fire({
+                                title: 'Hold Up!',
+                                text: 'Announcement already added',
+                                icon: 'warning',
+                                confirmButtonText: 'Continue'
+                            });
+                        }
+                    },
+                    error: function (x, y, z) {
+                        console.log(data);
+                        Swal.fire({
+                            title: 'Error!',
+                            text: 'Something went wrong with your request',
+                            icon: 'error',
+                            confirmButtonText: 'Continue'
+                        });
+                        console.log(x, y, z);
+                    }
+                });
+            });
+        });</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+

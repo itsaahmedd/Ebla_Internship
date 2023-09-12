@@ -1,0 +1,1053 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/obj/Debug/net7.0/scopedcss/projectbundle/employee_system.bundle.scp.css",
+      "PackagePath": "staticwebassets/employee_system.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/apple-touch-icon.png",
+      "PackagePath": "staticwebassets/apple-touch-icon.png"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/avatar.png",
+      "PackagePath": "staticwebassets/avatar.png"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/cover-5-lg.png",
+      "PackagePath": "staticwebassets/cover-5-lg.png"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/.DS_Store",
+      "PackagePath": "staticwebassets/css/.DS_Store"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/app.bundle.css",
+      "PackagePath": "staticwebassets/css/app.bundle.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/app.bundle.css.map",
+      "PackagePath": "staticwebassets/css/app.bundle.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/bob.css",
+      "PackagePath": "staticwebassets/css/bob.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/app.bundle-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/app.bundle-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/datagrid/datatables/datatables.bundle-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/datagrid/datatables/datatables.bundle-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/datagrid/datatables/datatables.bundle.css",
+      "PackagePath": "staticwebassets/css/css_folder/datagrid/datatables/datatables.bundle.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/datagrid/datatables/datatables.bundle.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/datagrid/datatables/datatables.bundle.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/fa-brands-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/fa-brands-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/fa-brands.css",
+      "PackagePath": "staticwebassets/css/css_folder/fa-brands.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/fa-brands.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/fa-brands.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/fa-regular-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/fa-regular-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/fa-regular.css",
+      "PackagePath": "staticwebassets/css/css_folder/fa-regular.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/fa-regular.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/fa-regular.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/fa-solid-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/fa-solid-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/fa-solid.css",
+      "PackagePath": "staticwebassets/css/css_folder/fa-solid.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/fa-solid.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/fa-solid.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/bootstrap-colorpicker/bootstrap-colorpicker-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/bootstrap-colorpicker/bootstrap-colorpicker-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/bootstrap-colorpicker/bootstrap-colorpicker.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/bootstrap-colorpicker/bootstrap-colorpicker.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/bootstrap-colorpicker/bootstrap-colorpicker.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/bootstrap-colorpicker/bootstrap-colorpicker.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/bootstrap-datepicker/bootstrap-datepicker-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/bootstrap-datepicker/bootstrap-datepicker-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/bootstrap-datepicker/bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/bootstrap-datepicker/bootstrap-datepicker.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/bootstrap-datepicker/bootstrap-datepicker.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/bootstrap-datepicker/bootstrap-datepicker.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/bootstrap-markdown/bootstrap-markdown-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/bootstrap-markdown/bootstrap-markdown-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/bootstrap-markdown/bootstrap-markdown.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/bootstrap-markdown/bootstrap-markdown.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/bootstrap-markdown/bootstrap-markdown.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/bootstrap-markdown/bootstrap-markdown.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/cropperjs/cropper-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/cropperjs/cropper-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/cropperjs/cropper.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/cropperjs/cropper.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/cropperjs/cropper.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/cropperjs/cropper.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/dropzone/dropzone-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/dropzone/dropzone-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/dropzone/dropzone.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/dropzone/dropzone.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/dropzone/dropzone.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/dropzone/dropzone.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/ion-rangeslider/ion-rangeslider-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/ion-rangeslider/ion-rangeslider-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/ion-rangeslider/ion-rangeslider.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/ion-rangeslider/ion-rangeslider.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/ion-rangeslider/ion-rangeslider.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/ion-rangeslider/ion-rangeslider.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/nouislider/nouislider-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/nouislider/nouislider-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/nouislider/nouislider.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/nouislider/nouislider.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/nouislider/nouislider.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/nouislider/nouislider.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/select2/select2.bundle-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/select2/select2.bundle-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/select2/select2.bundle.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/select2/select2.bundle.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/select2/select2.bundle.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/select2/select2.bundle.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/smartwizard/smartwizard-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/smartwizard/smartwizard-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/smartwizard/smartwizard.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/smartwizard/smartwizard.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/smartwizard/smartwizard.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/smartwizard/smartwizard.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/summernote/summernote-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/summernote/summernote-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/summernote/summernote.css",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/summernote/summernote.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/formplugins/summernote/summernote.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/formplugins/summernote/summernote.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/fullcalendar/fullcalendar.bundle-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/fullcalendar/fullcalendar.bundle-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/fullcalendar/fullcalendar.bundle.css",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/fullcalendar/fullcalendar.bundle.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/fullcalendar/fullcalendar.bundle.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/fullcalendar/fullcalendar.bundle.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/jqvmap/jqvmap.bundle-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/jqvmap/jqvmap.bundle-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/jqvmap/jqvmap.bundle.css",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/jqvmap/jqvmap.bundle.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/jqvmap/jqvmap.bundle.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/jqvmap/jqvmap.bundle.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/lightgallery/lightgallery.bundle-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/lightgallery/lightgallery.bundle-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/lightgallery/lightgallery.bundle.css",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/lightgallery/lightgallery.bundle.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/lightgallery/lightgallery.bundle.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/lightgallery/lightgallery.bundle.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/nestable/nestable-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/nestable/nestable-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/nestable/nestable.css",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/nestable/nestable.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/nestable/nestable.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/nestable/nestable.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/reactions/reactions-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/reactions/reactions-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/reactions/reactions.css",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/reactions/reactions.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/reactions/reactions.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/reactions/reactions.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/treeview/treeview-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/treeview/treeview-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/treeview/treeview.css",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/treeview/treeview.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/miscellaneous/treeview/treeview.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/miscellaneous/treeview/treeview.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/notifications/sweetalert2/sweetalert2.bundle-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/notifications/sweetalert2/sweetalert2.bundle-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/notifications/sweetalert2/sweetalert2.bundle.css",
+      "PackagePath": "staticwebassets/css/css_folder/notifications/sweetalert2/sweetalert2.bundle.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/notifications/sweetalert2/sweetalert2.bundle.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/notifications/sweetalert2/sweetalert2.bundle.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/notifications/toastr/toastr-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/notifications/toastr/toastr-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/notifications/toastr/toastr.css",
+      "PackagePath": "staticwebassets/css/css_folder/notifications/toastr/toastr.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/notifications/toastr/toastr.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/notifications/toastr/toastr.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/page-invoice-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/page-invoice-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/page-invoice.css",
+      "PackagePath": "staticwebassets/css/css_folder/page-invoice.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/page-invoice.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/page-invoice.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/page-login-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/page-login-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/page-login.css",
+      "PackagePath": "staticwebassets/css/css_folder/page-login.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/page-login.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/page-login.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/statistics/c3/c3-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/statistics/c3/c3-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/statistics/c3/c3.css",
+      "PackagePath": "staticwebassets/css/css_folder/statistics/c3/c3.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/statistics/c3/c3.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/statistics/c3/c3.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/statistics/chartist/chartist-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/statistics/chartist/chartist-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/statistics/chartist/chartist.css",
+      "PackagePath": "staticwebassets/css/css_folder/statistics/chartist/chartist.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/statistics/chartist/chartist.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/statistics/chartist/chartist.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/statistics/chartjs/chartjs-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/statistics/chartjs/chartjs-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/statistics/chartjs/chartjs.css",
+      "PackagePath": "staticwebassets/css/css_folder/statistics/chartjs/chartjs.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/statistics/chartjs/chartjs.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/statistics/chartjs/chartjs.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/statistics/dygraph/dygraph-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/statistics/dygraph/dygraph-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/statistics/dygraph/dygraph.css",
+      "PackagePath": "staticwebassets/css/css_folder/statistics/dygraph/dygraph.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/statistics/dygraph/dygraph.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/statistics/dygraph/dygraph.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/theme-demo-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/theme-demo-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/theme-demo.css",
+      "PackagePath": "staticwebassets/css/css_folder/theme-demo.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/theme-demo.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/theme-demo.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-1-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-1-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-1.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-1.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-1.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-1.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-10-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-10-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-10.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-10.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-10.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-10.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-11-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-11-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-11.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-11.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-11.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-11.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-12-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-12-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-12.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-12.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-12.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-12.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-13-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-13-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-13.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-13.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-13.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-13.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-2-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-2-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-2.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-2.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-2.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-2.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-3-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-3-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-3.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-3.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-3.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-3.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-4-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-4-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-4.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-4.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-4.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-4.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-5-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-5-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-5.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-5.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-5.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-5.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-6-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-6-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-6.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-6.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-6.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-6.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-7-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-7-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-7.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-7.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-7.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-7.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-8-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-8-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-8.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-8.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-8.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-8.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-9-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-9-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-9.css",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-9.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/themes/cust-theme-9.css.map",
+      "PackagePath": "staticwebassets/css/css_folder/themes/cust-theme-9.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/css_folder/vendors.bundle-rtl.css",
+      "PackagePath": "staticwebassets/css/css_folder/vendors.bundle-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/fa-brands.css",
+      "PackagePath": "staticwebassets/css/fa-brands.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/theme-basic.css",
+      "PackagePath": "staticwebassets/css/theme-basic.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/theme-glasss.css",
+      "PackagePath": "staticwebassets/css/theme-glasss.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/toastr-rtl.css",
+      "PackagePath": "staticwebassets/css/toastr-rtl.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/toastr.css",
+      "PackagePath": "staticwebassets/css/toastr.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/toastr.css.map",
+      "PackagePath": "staticwebassets/css/toastr.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/vendors.bundle.css",
+      "PackagePath": "staticwebassets/css/vendors.bundle.css"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/css/vendors.bundle.css.map",
+      "PackagePath": "staticwebassets/css/vendors.bundle.css.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/face.png",
+      "PackagePath": "staticwebassets/face.png"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/favicon-32x32.png",
+      "PackagePath": "staticwebassets/favicon-32x32.png"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/google_plus.png",
+      "PackagePath": "staticwebassets/google_plus.png"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/image_3.jpg",
+      "PackagePath": "staticwebassets/image_3.jpg"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/insta.png",
+      "PackagePath": "staticwebassets/insta.png"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/.DS_Store",
+      "PackagePath": "staticwebassets/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/app.bundle.js",
+      "PackagePath": "staticwebassets/js/app.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/bundle.js",
+      "PackagePath": "staticwebassets/js/bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/calendar_js.js",
+      "PackagePath": "staticwebassets/js/calendar_js.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/chart.js",
+      "PackagePath": "staticwebassets/js/chart.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/datagrid/datatables/datatables.bundle.js",
+      "PackagePath": "staticwebassets/js/js_folder/datagrid/datatables/datatables.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/datagrid/datatables/datatables.export.js",
+      "PackagePath": "staticwebassets/js/js_folder/datagrid/datatables/datatables.export.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/dependency/moment/moment.js",
+      "PackagePath": "staticwebassets/js/js_folder/dependency/moment/moment.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/formplugins/bootstrap-colorpicker/bootstrap-colorpicker.js",
+      "PackagePath": "staticwebassets/js/js_folder/formplugins/bootstrap-colorpicker/bootstrap-colorpicker.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/formplugins/bootstrap-datepicker/bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets/js/js_folder/formplugins/bootstrap-datepicker/bootstrap-datepicker.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker.js",
+      "PackagePath": "staticwebassets/js/js_folder/formplugins/bootstrap-daterangepicker/bootstrap-daterangepicker.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/formplugins/bootstrap-markdown/bootstrap-markdown.js",
+      "PackagePath": "staticwebassets/js/js_folder/formplugins/bootstrap-markdown/bootstrap-markdown.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/formplugins/cropperjs/cropper.js",
+      "PackagePath": "staticwebassets/js/js_folder/formplugins/cropperjs/cropper.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/formplugins/dropzone/dropzone.js",
+      "PackagePath": "staticwebassets/js/js_folder/formplugins/dropzone/dropzone.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/formplugins/inputmask/inputmask.bundle.js",
+      "PackagePath": "staticwebassets/js/js_folder/formplugins/inputmask/inputmask.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/formplugins/ion-rangeslider/ion-rangeslider.js",
+      "PackagePath": "staticwebassets/js/js_folder/formplugins/ion-rangeslider/ion-rangeslider.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/formplugins/nouislider/nouislider.js",
+      "PackagePath": "staticwebassets/js/js_folder/formplugins/nouislider/nouislider.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/formplugins/select2/select2.bundle.js",
+      "PackagePath": "staticwebassets/js/js_folder/formplugins/select2/select2.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/formplugins/smartwizard/smartwizard.js",
+      "PackagePath": "staticwebassets/js/js_folder/formplugins/smartwizard/smartwizard.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/formplugins/summernote/summernote.js",
+      "PackagePath": "staticwebassets/js/js_folder/formplugins/summernote/summernote.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/holder.js",
+      "PackagePath": "staticwebassets/js/js_folder/holder.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/i18n/i18n.js",
+      "PackagePath": "staticwebassets/js/js_folder/i18n/i18n.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/fullcalendar/fullcalendar.bundle.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/fullcalendar/fullcalendar.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/jqvmap.bundle.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/jqvmap.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.algeria.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.algeria.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.argentina.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.argentina.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.brazil.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.brazil.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.canada.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.canada.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.europe.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.europe.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.france.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.france.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.germany.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.germany.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.greece.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.greece.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.iran.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.iran.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.iraq.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.iraq.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.russia.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.russia.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.tunisia.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.tunisia.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.turkey.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.turkey.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.usa.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/jqvmap/maps/jquery.vmap.usa.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/lightgallery/lightgallery.bundle.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/lightgallery/lightgallery.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/lightgallery/smartvoice.bundle.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/lightgallery/smartvoice.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/nestable/nestable.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/nestable/nestable.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/miscellaneous/treeview/treeview.js",
+      "PackagePath": "staticwebassets/js/js_folder/miscellaneous/treeview/treeview.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/notifications/sweetalert2/sweetalert2.bundle.js",
+      "PackagePath": "staticwebassets/js/js_folder/notifications/sweetalert2/sweetalert2.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/notifications/toastr/toastr.js",
+      "PackagePath": "staticwebassets/js/js_folder/notifications/toastr/toastr.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/statistics/c3/c3.js",
+      "PackagePath": "staticwebassets/js/js_folder/statistics/c3/c3.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/statistics/chartist/chartist.js",
+      "PackagePath": "staticwebassets/js/js_folder/statistics/chartist/chartist.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/statistics/chartjs/chartjs.bundle.js",
+      "PackagePath": "staticwebassets/js/js_folder/statistics/chartjs/chartjs.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/statistics/d3/d3.js",
+      "PackagePath": "staticwebassets/js/js_folder/statistics/d3/d3.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/statistics/demo-data/demo-c3.js",
+      "PackagePath": "staticwebassets/js/js_folder/statistics/demo-data/demo-c3.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/statistics/demo-data/demo-data-dygraph.js",
+      "PackagePath": "staticwebassets/js/js_folder/statistics/demo-data/demo-data-dygraph.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/statistics/dygraph/dygraph.js",
+      "PackagePath": "staticwebassets/js/js_folder/statistics/dygraph/dygraph.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/statistics/easypiechart/easypiechart.bundle.js",
+      "PackagePath": "staticwebassets/js/js_folder/statistics/easypiechart/easypiechart.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/statistics/flot/flot.bundle.js",
+      "PackagePath": "staticwebassets/js/js_folder/statistics/flot/flot.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/statistics/peity/peity.bundle.js",
+      "PackagePath": "staticwebassets/js/js_folder/statistics/peity/peity.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/js_folder/statistics/sparkline/sparkline.bundle.js",
+      "PackagePath": "staticwebassets/js/js_folder/statistics/sparkline/sparkline.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/toastr.js",
+      "PackagePath": "staticwebassets/js/toastr.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/js/vendors.bundle.js",
+      "PackagePath": "staticwebassets/js/vendors.bundle.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/linkden.png",
+      "PackagePath": "staticwebassets/linkden.png"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/logo_1.png",
+      "PackagePath": "staticwebassets/logo_1.png"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/pattern-1.svg",
+      "PackagePath": "staticwebassets/pattern-1.svg"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/safari-pinned-tab.svg",
+      "PackagePath": "staticwebassets/safari-pinned-tab.svg"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/.DS_Store",
+      "PackagePath": "staticwebassets/webfonts/.DS_Store"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-light-300.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-light-300.eot"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-light-300.svg",
+      "PackagePath": "staticwebassets/webfonts/fa-light-300.svg"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-light-300.ttf",
+      "PackagePath": "staticwebassets/webfonts/fa-light-300.ttf"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-light-300.woff",
+      "PackagePath": "staticwebassets/webfonts/fa-light-300.woff"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-light-300.woff2",
+      "PackagePath": "staticwebassets/webfonts/fa-light-300.woff2"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/nextgen-icons.eot",
+      "PackagePath": "staticwebassets/webfonts/nextgen-icons.eot"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/nextgen-icons.svg",
+      "PackagePath": "staticwebassets/webfonts/nextgen-icons.svg"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/nextgen-icons.ttf",
+      "PackagePath": "staticwebassets/webfonts/nextgen-icons.ttf"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/nextgen-icons.woff",
+      "PackagePath": "staticwebassets/webfonts/nextgen-icons.woff"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/nextgen-icons.woff2",
+      "PackagePath": "staticwebassets/webfonts/nextgen-icons.woff2"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/summernote.eot",
+      "PackagePath": "staticwebassets/webfonts/summernote.eot"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/summernote.ttf",
+      "PackagePath": "staticwebassets/webfonts/summernote.ttf"
+    },
+    {
+      "Id": "/Users/ahmedhassanin/Projects/employee_system/employee_system/wwwroot/webfonts/summernote.woff",
+      "PackagePath": "staticwebassets/webfonts/summernote.woff"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.employee_system.props",
+      "PackagePath": "build\\employee_system.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.employee_system.props",
+      "PackagePath": "buildMultiTargeting\\employee_system.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.employee_system.props",
+      "PackagePath": "buildTransitive\\employee_system.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.employee_system.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
